@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>lbaas.vertx</groupId>
-  <artifactId>log4j2</artifactId>
-  <version>1.0</version>
-  <name>Log4J2</name>
+  <groupId>lbaas.vxrouter.vertx.log4j2</groupId>
+  <artifactId>vxrouter_log4j2</artifactId>
+  <version>1.0.0</version>
+  <name>vxrouter_log4j2</name>
   <properties>
-      <log4j.version>2.0-rc1</log4j.version>
-      <vertx.version>2.1.1</vertx.version>
+      <log4j.version>2.0.1</log4j.version>
+      <vertx.version>2.1.2</vertx.version>
   </properties>
   <build>
     <extensions>
@@ -40,20 +40,4 @@
           </exclusions>
       </dependency>
   </dependencies>
-  <distributionManagement>
-    <repository>
-      <id>libs.release.local</id>
-      <name>Artifactory Local Release Repository</name>
-      <url>
-        dav:http://artifactory.globoi.com/artifactory/libs-release-local
-      </url>
-    </repository>
-    <snapshotRepository>
-      <id>libs.snapshot.local</id>
-      <name>Artifactory Local Snapshot Repository</name>
-      <url>
-        dav:http://artifactory.globoi.com/artifactory/libs-snapshot-local
-      </url>
-    </snapshotRepository>
-  </distributionManagement>
 </project>
