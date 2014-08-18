@@ -2,7 +2,7 @@
  * Copyright (c) 2014 The original author or authors.
  * All rights reserved.
  */
-package lbaas.vertx.log4j2;
+package lbaas.vxrouter.vertx.log4j2;
 
 import org.vertx.java.core.logging.impl.LogDelegate;
 import org.vertx.java.core.logging.impl.LogDelegateFactory;
