@@ -12,7 +12,7 @@
  * IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
  * PARTICULAR PURPOSE.
  */
-package lbaas.vxrouter.vertx.log4j2;
+package com.globo.galeb.vertx.log4j2;
 
 import org.vertx.java.core.logging.impl.LogDelegate;
 import org.vertx.java.core.logging.impl.LogDelegateFactory;
