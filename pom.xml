@@ -22,6 +22,7 @@
   <properties>
       <log4j.version>2.0.1</log4j.version>
       <vertx.version>2.1.2</vertx.version>
+      <hazelcast.version>3.2.3</hazelcast.version>
   </properties>
 
   <parent>
@@ -72,6 +73,11 @@
                 <artifactId>log4j</artifactId>
             </exclusion>
           </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>com.hazelcast</groupId>
+        <artifactId>hazelcast</artifactId>
+        <version>${hazelcast.version}</version>
       </dependency>
   </dependencies>
 </project>
