@@ -2,9 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.globo.galeb.vertx</groupId>
-  <artifactId>vertx2-log4j2</artifactId>
+  <artifactId>galeb-log4j2</artifactId>
   <version>1.0.0</version>
-  <name>vertx2-log4j2</name>
+  <name>galeb-log4j2</name>
 
   <licenses>
     <license>
