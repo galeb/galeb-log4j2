@@ -14,8 +14,8 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git@github.com:galeb/com.globo.galeb.vertx.log4j2.git</connection>
-    <url>https://github.com/galeb/com.globo.galeb.vertx.log4j2</url>
+    <connection>scm:git:git@github.com:globocom/galeb-log4j2.git</connection>
+    <url>https://github.com/globocom/galeb-log4j2</url>
   </scm>
 
   <properties>
